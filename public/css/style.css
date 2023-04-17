@@ -1,0 +1,144 @@
+:root {
+    --bg-color: rgb(105, 122, 74);
+    --nav-title-weight: 900;
+    --nav-title-size: xx-large;
+    --blog-box-margin: 8px;
+    --blog-box-border-style: solid;
+    --blog-title-text-dec: none;
+    --blog-title-color: skyblue;
+    --blog-desc-border-style: solid;
+    --blog-desc-margin-bottom: 5px;
+    --blog-desc-padding: 2px;
+    --blog-desc-bg-color: rgb(113, 143, 62);
+    --blog-desc-main-weight: 700;
+    --blog-desc-two-size: 25px;
+    --blog-desc-two-style: italic;
+    --blog-create-weight: bold;
+    --blog-create-style: italic;
+    --blog-create-size: 12px;
+    --blog-create-padding: 5px;
+    --blog-create-color: rgb(23, 65, 69);
+    --blog-box-cont-margin: 10px;
+    --blog-box-cont-border-style: solid;
+    --blog-box-cont-bg-color: rgb(113, 143, 62);
+    --form-cont-margin-top: 10px;
+    --form-cont-max-width: 75%;
+    --form-cont-margin-left: auto;
+    --form-cont-margin-right: auto;
+    --comment-cont-margin-left: auto;
+    --comment-cont-margin-right: auto;
+    --comment-cont-margin-top: 10px;
+    --comment-cont-max-width: 75%;
+    --comment-cont-bg-color: rgb(113, 143, 62);
+    --comment-cont-border-style: dashed;
+    --comment-owner-size: 14px;
+    --btn-comment-margin-top: 10px;
+    --comment-text-weight: bold;
+    --comment-text-padding-top: 10px;
+    --comment-text-bg-color: rgb(113, 143, 62);
+    --header-row-bg-color: black;
+    --header-row-margin-bottom: 10px;
+    --link-color: rgb(29, 200, 23);
+    --link-visited-color: rgb(182, 179, 41);
+    --link-hover-color: rgb(139, 64, 64);
+    --login-margin-left: 25px;
+    --signup-margin-left: 25px;
+    --form-group-margin-top: 10px;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+  }
+  
+  .navTitle {
+    font-weight: var(--nav-title-weight);
+    font-size: var(--nav-title-size);
+  }
+  
+  .blogBox {
+    margin-top: var(--blog-box-margin);
+    border-style: var(--blog-box-border-style);
+  }
+  
+  .blogTitle {
+    text-decoration: var(--blog-title-text-dec);
+    color: var(--blog-title-color);
+  }
+  
+  .blogDesc {
+    border-style: var(--blog-desc-border-style);
+    margin-bottom: var(--blog-desc-margin-bottom);
+    padding: var(--blog-desc-padding);
+    background-color: var(--blog-desc-bg-color);
+  }
+  
+  .blogDescMain {
+    font-weight: var(--blog-desc-main-weight);
+  }
+  
+  .blogDescTwo {
+    font-size: var(--blog-desc-two-size);
+    font-style: var(--blog-desc-two-style);
+  }
+  
+  .blogCreate {
+    font-weight: var(--blog-create-weight);
+    font-style: var(--blog-create-style);
+    font-size: var(--blog-create-size);
+    padding: var(--blog-create-padding);
+    color: var(--blog-create-color);
+  }
+  
+  .blogBoxCont {
+    margin-top: var(--blog-box-cont-margin);
+    border-style: var(--blog-box-cont-border-style);
+    background-color: var(--blog-box-cont-bg-color);
+    }
+  
+  .commentCont {
+    background-color: var(--comment-cont-bg-color);
+    border-style: var(--comment-cont-border);
+    }
+        
+  .commentOwner {
+    font-size: var(--comment-owner-size);
+    }
+        
+  .btnComment {
+    margin-top: var(--btn-comment-margin-top);
+    }
+        
+   .commentText {
+    font-weight: var(--comment-text-weight);
+    padding-top: var(--comment-text-padding-top);
+    background-color: var(--comment-text-bg-color);
+    }
+        
+   .headerRow {
+    background-color: var(--header-row-bg-color);
+    margin-bottom: var(--header-row-margin-bottom);
+    }
+        
+    a {
+    color: var(--link-color);
+    }
+        
+    a:visited {
+     color: var(--link-visited-color);
+     }
+        
+    a:hover {
+    color: var(--link-hover-color);
+    }
+        
+    .login {
+    margin-left: var(--login-margin-left);
+    }
+        
+    .signup {
+    margin-left: var(--signup-margin-left);
+    }
+        
+    .formGroup {
+    margin-top: var(--form-group-margin-top);
+    } 
